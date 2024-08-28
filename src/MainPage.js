@@ -5,7 +5,7 @@ import './MainPage.css';
 export default function MainPage(){
     return(
         <div className='mainPage'>
-           {accordionData.map((accordion) => <Card no={accordion.no} title={accordion.title}/>)}
+           {accordionData.map((accordion) => <Card no={accordion.no} description= {accordion.description} title={accordion.title}/>)}
         </div>
     );
 }

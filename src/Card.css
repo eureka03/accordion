@@ -9,7 +9,40 @@
 .Card>button{
     background-color:white;
     border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+.Card2{
+    background-color: white;
+}
+.Card3{
+    display:flex;
+    gap:10px;
+    background-color: white;
+    font-weight:bold;
+    color:green;
+    border-top:4px solid green;
+}
+.Card3>button{
+    background-color:white;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+    
 }
 #title{
     width:430px;
+}
+#no{
+    color:lightgrey;
+    margin-left:10px
+}
+#no2{
+    color:green;
+    margin-left:10px
+    
+}
+.description{
+    width:430px;
+    margin-left:40px;
 }
