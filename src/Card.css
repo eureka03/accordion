@@ -1,0 +1,15 @@
+.Card{
+    display:flex;
+    gap:10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgrey;
+    margin-top:10px;
+    font-weight:bold;
+}
+.Card>button{
+    background-color:white;
+    border:none;
+}
+#title{
+    width:430px;
+}
